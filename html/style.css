@@ -1,0 +1,71 @@
+* {
+	margin: 0;
+    padding: 0;
+}
+body {
+	font-family: Courier;
+}
+a {
+	color: #000;
+}
+a:hover, a:active, a:visited {
+	text-decoration: none;
+}
+#main {
+	width: 780px;
+    margin: 0 auto;
+	margin-top: 50px;
+	padding: 10px;
+    border: 1px solid #CCC;
+    background-color: #EEE;
+}
+form fieldset {	border: 0; }
+form fieldset p br { clear: left; }
+label {
+	margin-top: 5px;
+    display: block;
+    width: 100px;
+    padding: 0;
+    float: left;
+}
+input {
+	font-family: Courier;
+    border: 1px solid #CCC;
+	margin-bottom: 5px;
+    background-color: #FFF;
+    padding: 2px;
+}
+input:hover {
+	border: 1px solid #222;
+    background-color: #EEE;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+table {
+    border-spacing: 5px;
+}
+th, td {
+    padding: 15px;
+    vertical-align: text-top;
+    text-align: left;
+}
+h1, p {
+	text-align: center;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}#logo {
+    background: url(images/supermarine.png) no - repeat center center;
+    height: 200px;
+    width: 200px;
+}
+form { 
+	margin: 0 auto; 
+	width:250px;
+	text-align:center;
+}
+

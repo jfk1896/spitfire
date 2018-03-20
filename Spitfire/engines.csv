@@ -1,0 +1,39 @@
+G55M;Griffon 55M;Rolls-Royce Griffon;;;
+G61;Griffon 61;Rolls-Royce Griffon;;;
+G65;Griffon 65;Rolls-Royce Griffon;;;
+G66;Griffon 66;Rolls-Royce Griffon;;;
+G67;Griffon 67;Rolls-Royce Griffon;;;
+G87;Griffon 87;Rolls-Royce Griffon;;;
+G88;Griffon 88;Rolls-Royce Griffon;;;
+G89;Griffon 89;Rolls-Royce Griffon;;;
+GIIB;Griffon IIB;Rolls-Royce Griffon;;;
+GIII;Griffon III;Rolls-Royce Griffon;;;
+GIV;Griffon IV;Rolls-Royce Griffon;;;
+GVI;Griffon VI;Rolls-Royce Griffon;;;
+M266;Merlin 266 (RM 10SM);Rolls-Royce Merlin;1,670 hp (1,245 kW) at 3,000 rpm;1,710 hp (1,275 kW) at 3,000 rpm, +18 psi (124 kPa), 6,400 ft (1,951 m)t;"The prefix ""2"" indicates engines built by Packard, otherwise as Merlin 66, optimised for low-altitude operation."
+M32;Merlin 32 (RM 5M);Rolls-Royce Merlin;1,620 hp (1,208 kW) at 3,000 rpm;1,640 hp (1,223 kW) at 3,000 rpm, +18 psi (124 kPa) boost, 2,000 ft (610 m);"A ""low altitude"" version of Merlin with cropped supercharger impellers for increased power at lower altitudes, as per the Merlin XXX; fitted with a Coffman engine starter; used mainly in Fleet Air Arm aircraft. First production Merlin 32 delivered 17 June 1942."
+M45;Merlin 45 (RM5S);Rolls-Royce Merlin;1,185 hp (884 kW) at 3,000 rpm;1,515 hp (1,130 kW) at 3,000 rpm, +16 psi (110 kPa) boost, 11,500 ft (3,505 m);A variant of the Merlin XX fitted with single-stage, single-speed supercharger for low altitude Spitfire use. First production Merlin 45 delivered 13 January 1941.  First of specialised engines for Spitfire Mk V variants and early Seafires.
+M45M;Merlin 45M;Rolls-Royce Merlin;1,230 hp (917 kW) at 3,000 rpm;1,585 hp (1,182 kW) at 3,000 rpm, +18 psi (124 kPa) boost, 2,750 ft (838 m);"Version of Merlin 45 with ""cropped"" (smaller diameter) supercharger impeller allowing greater boost at low altitudes."
+M45MA;Merlin 45MA;Rolls-Royce Merlin; ; ; 
+M46;Merlin 46;Rolls-Royce Merlin;1,100 hp (820 kW) at 3,000 rpm;1,415 hp (1,055 kW) at 3,000 rpm, +16 psi (110 kPa) boost, 14,000 ft (4,267 m);
+M46M;Merlin 46M;Rolls-Royce Merlin; ; ;
+M47;Merlin 47 (RM 6S);Rolls-Royce Merlin;1,100 hp (820 kW) at 3,000 rpm;1,415 hp (1,055 kW) at 3,000 rpm, +16 psi (110 kPa) boost, 1,400 ft (427 m);"Adapted with a Marshall compressor (often called a ""blower"") to pressurise the cockpit. First production Merlin 47 delivered 2 December 1941."
+M50;Merlin 50 (RM 5S);Rolls-Royce Merlin;1,185 hp (884 kW) at 3,000 rpm;1,470 hp (1,096 kW) at 3,000 rpm, +16 psi (110 kPa) boost, 9,250 ft (2,819 m);"Low-altitude version with supercharger impeller ""cropped"" to 9.5 in (241 mm) in diameter.11 Merlin 50 series was first to use the Bendix Stromberg ""negative-g"" carburettor.111"
+M50A;Merlin 50M (RM 5S) ;Rolls-Royce Merlin;1,230 hp (917 kW) at 3,000 rpm ;1,585 hp (1,182 kW) at 3,000 rpm, +18 psi (124 kPa) boost, 2,750 ft (838 m);
+M55;Merlin 55;Rolls-Royce Merlin;1,185 hp (884 kW) at 3,000 rpm;1,470 hp (1,096 kW) at 3,000 rpm, +16 psi (110 kPa), 9,250 ft (2,819 m);
+M55M;Merlin 55M;Rolls-Royce Merlin;1,230 hp (917 kW) at 3,000 rpm;1,585 hp (1,182 kW) at 3,000 rpm, +18 psi (124 kPa) boost, 2,750 ft (838 m);"Variant with ""cropped"" supercharger impellor"
+M55MA;Merlin 55MA;Rolls-Royce Merlin;;;
+M56;Merlin 56;Rolls-Royce Merlin;;;
+M60;Merlin 60;Rolls-Royce Merlin;1,390 hp (1,037 kW) at 3,000 rpm;1,110 hp (828 kW) at 2,850 rpm, +9 psi (62 kPa) boost, 29,000 ft (8,839 m);"First variant fitted with two-stage, two-speed supercharger; rated for high altitude."
+M61;Merlin 61 (RM 8SM);Rolls-Royce Merlin;1,280 hp (954 kW) at 3,000 rpm;1,565 hp (1,167 kW) at 3,000 rpm, +15 psi (103 kPa) boost, 11,250 ft (3,429 m);Production variant of Merlin 60 fitted with a new two-speed two-stage supercharger providing increased power at medium to high altitudes.2 First British production variant to incorporate two-piece cylinder blocks designed by Rolls-Royce for the Packard Merlin. First production Merlin 61 delivered 2 March 1942.
+M63;Merlin 63;Rolls-Royce Merlin;1,280 hp (954 kW) at 3,000 rpm;1,710 hp (1,275 kW) at 3,000 rpm, +18 psi (124 kPa) boost, 8,500 ft (2,591 m);Replaced Merlin 61
+M63A;Merlin ;Rolls-Royce Merlin;1,280 hp (954 kW) at 3,000 rpm 1;1,710 hp (1,275 kW) at 3,000 rpm, +18 psi (124 kPa) boost, 8,500 ft (2,591 m);
+M64;Merlin 64;Rolls-Royce Merlin;1,280 hp (954 kW) at 3,000 rpm;1,710 hp (1,275 kW) at 3,000 rpm, +18 psi (124 kPa) boost, 8,500 ft (2,591 m);Cabin pressure blower1
+M66;Merlin 66 (RM 10SM);Rolls-Royce Merlin;1,315 hp (981 kW) at 3,000 rpm;1,705 hp (1,271 kW) at 3,000 rpm, +18 psi (124 kPa) boost, 5,750 ft (1,753 m);"Fitted with supercharger rated for low altitude; Bendix-Stromberg anti-g carburettor 122"
+M70;Merlin 70;Rolls-Royce Merlin;1,250 hp (932 kW) at 3,000 rpm;1,655 hp (1,234 kW) at 3,000 rpm, +18 psi (124 kPa) boost, 10,000 ft (3,048 m);Bendix Stromberg anti-g carburettor 2
+M77;Merlin 77 (RM 16SM);Rolls-Royce Merlin;1,250 hp (932 kW) at 3,000 rpm;1,655 hp (1,234 kW) at 3,000 rpm, +18 psi (124 kPa), 10,000 ft (3,048 m);Same as Merlin 76 with a pressurising blower 1
+MC;Merlin C;Rolls-Royce Merlin;950 hp (708 kW) at 11,000-foot (3,400 m) equivalent ;;"Development of Merlin B; Crankcase and cylinder blocks became three separate castings with bolt-on cylinder heads. First flight in Hawker Horsley 21 December 1935."
+MII;Merlin II (RM 1S);Rolls-Royce Merlin;880 hp (656 kW) at 3,000 rpm;1,030 hp (768 kW) at 3,000 rpm at 5,500 ft (1,676 m) with + 6 psi (41 kPa) boost;Used 100% glycol coolant. First production Merlin II delivered 10 August 1937.1
+MIII;Merlin III (RM 1S);Rolls-Royce Merlin;880 hp (656 kW) at 3,000 rpm;1,310 hp (977 kW) at 3,000 rpm at 9,000 ft (2,743 m) with 100 octane fuel and +12 psi (83 kPa) boost (5-minute limit).;Variant of Merlin II with universal propeller shaft, able to be fitted with de Havilland or Rotol propellers. From late 1939, using 100 octane fuel and + 12 psi (83 kPa) boost, the Merlin III developed 1,310 hp (977 kW) at 3,000 rpm at 9,000 ft (2,700 m). Later developing 1,440 hp (1,074 kW) at 3,000 rpm, +16 psi (110 kPa) boost at 5,500 ft (1,676 m) for the Sea Hurricane. Using 87 Octane fuel the power ratings were the same as the Merlin II. First production Merlin III delivered 1 July 1938.
+MXII;Merlin XII (RM 3S);Rolls-Royce Merlin;1,175 hp (876 kW) at 3,000 rpm;1,280 hp (954 kW) at 3,000 rpm, +12 psi (83 kPa) boost, 10,500 ft (3,200 m);Coffman cartridge starter. First version of Merlin to use 30/70% glycol/water coolant with reinforced construction, able to use constant boost pressure of up to +12 psi (83 kPa) using 100 octane fuel. First production Merlin XII, 2 September 1939.1
+MXX;Merlin XX (RM 3SM);Rolls-Royce Merlin;1,280 hp (954 kW) at 3,000 rpm;1,490 hp (1,111 kW) at 3,000 rpm, +16 psi (110 kPa) boost, with 100 Octane fuel at 12,500 ft (3,810 m).;First production version with two speed supercharger giving boost pressures of up to + 14 psi (97 kPa).1 First production Merlin XX, 4 July 1940.nb 

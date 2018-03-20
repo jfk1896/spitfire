@@ -1,0 +1,51 @@
+Ia 	I	"Eight machine guns"	
+Proto	Proto	"Prototype"	
+pattern	pattern "Fuselage only"		
+HS	III	"Photo reconnaissance"	"High Speed"
+III 	III		
+IIa 	II	Eight machine guns	
+IIb 	II	Four machine guns and two cannon	
+Vb 	V	Four machine guns and two cannon	
+PRIII	III	Photo reconnaissance	
+Va 	V	Eight machine guns	
+Ib 	I	Four machine guns and two cannon	
+PRIV	IV	Photo reconnaissance	
+F21 	F21 		
+PRIVT	IV	Photo reconnaissance	Tropical version
+Vc 	V	Universal wing (either machine gun or cannon)	
+VbT 	V	Four machine guns and two cannon	Tropical version
+VII 	VII		
+VcT	V	Universal wing (either machine gun or cannon)	Tropical version
+IXc 	IX	Universal wing (either machine gun or cannon)	
+IX 	IX		
+PRXI	XI	Photo reconnaissance	
+IV 	IV		
+XII 	XII		
+LFIX	IX	Low level fighter	
+PRXIT	XI	Photo reconnaissance	Tropical version
+VIII	VIII		
+LFVIII  VIII	Low level fighter		
+F21 	F21 		
+Seafire	Seafire  		
+IXT 	IX	Tropical version	
+IXe 	IX	Two 20mm cannon + 0.5in machine guns	
+PRX 	XI	Photo reconnaissance	
+LFIXb	IX	Four machine guns and two cannon	Low level fighter
+LFIXe	IX	Two 20mm cannon + 0.5in machine guns	Low level fighter
+LFIXc	IX	Universal wing (either machine gun or cannon)	Low level fighter
+LFXVI	XVI	Low level fighter	
+HFIX	IX	High level fighter	
+HFVIII  VIII	High level fighter		
+FRXIV	XIV	Long range tanks fitted	
+XIV 	XIV		
+FRXIVe  XIV	Two 20mm cannon + 0.5in machine guns		
+HFIXc	IX	Universal wing (either machine gun or cannon)	High level fighter
+XVIII	XVIII		
+Spiteful	Spiteful		
+F22 	F22 		
+F24 	F24 		
+PRXIX	XIX	Photo reconnaissance	
+XIVe	XIV	Two 20mm cannon + 0.5in machine guns	
+LFXVIe  XVI	Two 20mm cannon + 0.5in machine guns	Low level fighter	
+FRXVIII XVIII	Long range tanks fitted		
+Seafang	 Seafang		

@@ -1,0 +1,78 @@
+mysql -u root -h 127.0.0.1
+ 
+show databases;
+
+create database spitfire;
+
+use spitfire;
+
+create table production (id MEDIUMINT NOT NULL AUTO_INCREMENT, serial VARCHAR(10), mark VARCHAR(15), number VARCHAR(15), factory VARCHAR(10), engine VARCHAR(10), history VARCHAR(1500), squadron int(10), pilot VARCHAR(50), first_flight date, maintenence_unit int(10), mu_date date, code VARCHAR (10), PRIMARY KEY (id));
+
+while read line; do echo "INSERT INTO production (serial, mark, number, factory, engine, history) VALUES ('$(echo $line | cut -d';' -f1)', '$(echo $line | cut -d';' -f2)', '$(echo $line | cut -d';' -f3)', '$(echo $line | cut -d';' -f4)', '$(echo $line | cut -d';' -f5)', '$(echo $line | cut -d';' -f6)');"; done < production.csv | mysql -u root spitfire;
+92 | Sq/Ldr Roger Joyce Bushell | 1939-11-25   |               27 | 1939-12-02 | GR-Z |
+
+create table units (id MEDIUMINT NOT NULL AUTO_INCREMENT, unit VARCHAR(10), description VARCHAR(60), PRIMARY KEY (id));
+
+cat units.txt | while read unit description; do echo "INSERT INTO units (unit, description) VALUES ('$unit', '$description');"; done | mysql -u root spitfire;
+
+
+create table factories (id MEDIUMINT NOT NULL AUTO_INCREMENT, factory VARCHAR(10), description VARCHAR(60), PRIMARY KEY (id));
+
+cat factories.txt | while read factory description; do echo "INSERT INTO factories (factory, description) VALUES ('$factory', '$description');"; done | mysql -u root spitfire;
+
+
+create table marks (id MEDIUMINT NOT NULL AUTO_INCREMENT, mark VARCHAR(10), base VARCHAR(10), variant1 VARCHAR(50), variant2 VARCHAR(50), PRIMARY KEY (id));
+
+while read i; do echo $i; done < marks_sql.txt | mysql -u root spitfire;
+
+
+create table engines (id MEDIUMINT NOT NULL AUTO_INCREMENT, variant VARCHAR(5), name VARCHAR(20), manufacturer VARCHAR(20), take_off_power VARCHAR(200), combat_power VARCHAR(200), notes VARCHAR(1000), PRIMARY KEY (id));
+
+while read line; do echo "INSERT INTO engines (variant, name, manufacturer, take_off_power, combat_power, notes) VALUES ('$(echo $line | cut -d';' -f1)', '$(echo $line | cut -d';' -f2)', '$(echo $line | cut -d';' -f3)', '$(echo $line | cut -d';' -f4)', '$(echo $line | cut -d';' -f5)' , '$(echo $line | cut -d';' -f6)');"; done < engines.csv | mysql -u root spitfire;
+
+
+create table maintenance (id MEDIUMINT NOT NULL AUTO_INCREMENT, name VARCHAR(50), airfield VARCHAR(500), equipment VARCHAR(100), notes VARCHAR(500), PRIMARY KEY (id));
+
+while read line; do echo "INSERT INTO maintenance (name, airfield, equipment, notes) VALUES ('$(echo $line | cut -d';' -f1)', '$(echo $line | cut -d';' -f2)', '$(echo $line | cut -d';' -f3)', '$(echo $line | cut -d';' -f4)');"; done < mu.csv | mysql -u root spitfire;
+
+
+DELETE FROM production where id=1; 
+
+drop table production;
+
+
+Backup:
+mysqldump --opt -h 127.0.0.1 -u root spitfire > spitfire.backup.sql
+
+Restore:
+mysql -h 127.0.0.1 -p -u root spitfire < spitfire.backup.sql
+
+
+Queries:
+
+SELECT production.serial, production.pilot, engines.variant, engines.name, engines.manufacturer, marks.variant1
+FROM production
+INNER JOIN engines ON production.engine = engines.variant
+INNER JOIN marks ON production.mark = marks.mark
+WHERE production.serial = 'N3194'; 
+
+
+ALTER TABLE production ADD image VARCHAR(20);
+update production set image  = 'Ia.jpg' where serial = 'N3194';
+
+
+Extract values from History:
+
+FF:
+=MID(F2,FIND("FF",F2)+3,8)
+
+S:
+=MID(F3,FIND("S",F3)-2,2)
+
+MU:
+=MID(F2,FIND("MU",F2)-2,2)
+
+MU date:
+=MID(F2,FIND("MU",F2)+3,8)
+
+

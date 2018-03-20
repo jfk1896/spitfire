@@ -1,0 +1,17 @@
+ALD	Aldermaston
+AST	Air Service Training
+BEN	Benson
+BHM24	Birmingham (CBAF postcode)
+CBAF	Castle Bromwich Aircraft Factory
+CHA	Chattis Hill
+COA	Cunliffe Owen
+Cos	Cosford
+Des	Desford
+EA	Eastleigh
+HEA	Supermarine built at dispersal units
+HPA	High Post
+KEA	Keevil
+Morris	Morris Motors (CBAF)
+PPSM	Phillips & Powis South Marston
+R-R	Rolls Royce Hucknall (Mk V to IX conversions)
+VAHPk	Vickers Armstrong Hursley Park

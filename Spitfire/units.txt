@@ -1,0 +1,80 @@
+AAEE	Aeroplane & Armament Experimental Establishment
+AAS	Air Armament School
+ACSEA	Air Command South East Asia
+AD	Aircraft Depot
+ADF	Aircraft Delivery Flight
+ADU	Aircraft Delivery Unit
+AFS	Advanced Flying School
+AGS	Air Gunners School
+AHQ	Airfield Headquarters
+ANS	Air Navigation School
+APC	Armament Practice Camp
+APS	Armament Practice Station
+APU	Aircraft Preparation Unit
+ASP	Air Stores Park
+ASR	Air Sea Rescue
+AST	Air Service Training
+ATA	Air Transport Auxiliary
+BSDU	Bomber Support Development Unit
+CAACU	Civilian Anti-Aircraft Co-Operation Unit
+CACF	Coast Artillery Co-Operation Flight/Unit
+CGS	Central Gunnery School
+CMU	Civil Maintenance Unit
+CRO	Civilian Repair Organisation
+CRS	Central Radio School
+CRU	Civilian Repair Unit
+CTU	Combat Training Unit
+CU	Conversion Unit
+EP	Equipment Park
+FLT	Flight
+FP	Ferry Pool (ATA)
+FPP	Ferry Pilots Pool Organisation
+FRS	Flying Refresher School
+FTS	Flying Training School
+FTU	Ferry Training & Aircraft Despatch Unit
+FU	Ferry Unit
+GCF	Group Communication Flight
+GDC	Group Disbandment Centre
+GP	Group Pool
+GRP	Group
+GSU	Group Support Unit
+HAL	Heston Aircraft Ltd
+HCU	Heavy Conversion Unit
+Med	Mediterranean
+MU	Maintenance Unit
+OADU	Overseas Aircraft Despatch Unit
+OCU	Operational Conversion Unit
+OTU	Operational Training Unit
+PAFU	(Pilots) Advanced Flying Unit
+PATP	Packed Aircraft Transit Pool
+PDU	Photographic Development Unit
+PRFU	(Pilot) Refresher Flying Unit
+PRU	Photographic Reconnaissance Unit
+R-RH	Rolls Royce Hucknall
+ROS	Repair On Site Parties (Came under the control of MU's)
+RSU	Repair & Salvage Sections/Units
+S	Squadron
+SC	Salvage Centre
+SGR	School Of General Reconnaissance
+SLG	Satellite Landing Grounds
+SOTT	School Of Technical Training
+SP	Staging Post
+SU	Servicing Unit
+TAF	2nd Tactical Air Force
+TEU	Tactical Exercise Units
+WNG	Wing
+Cv	Converted
+FF	First flew
+FH	Flying hours
+FTR	Failed to return
+GA	Ground accident (followed by category)
+RNDA	Royal Naval Deposit Account
+SOC	Struck off (RAF) Charge
+FA1	Flying accident category 1
+FA2	Flying accident category 2
+FA3	Flying accident category 3
+FA4	Flying accident category 4
+FAAC	Flying accident category AC
+FACA	Flying accident category CA
+FACB	Flying accident category CB
+FACE	Writeoff
