@@ -54,6 +54,7 @@ if(!empty($_SESSION['LoggedIn']) && !empty($_SESSION['Username']))
 
      ?> 
 	<img src="images/supermarine.png" alt="logo" style="width:30%;height:30%;">
+	<!-- <p>Southampton, Eng.</p><p>TELEPHONE: WOOLSTON 37 (2 LINES).  CABLES and TELEGRAMS: "SUPERMARINE" SOUTHAMPTON.</p><br/> -->
     	<h1>Supermarine Spitfire Database</h1>
 	<p><code><?=$_SESSION['Username']?></code> is logged into session <code><?=$_SESSION['LoggedIn']?></code>. <a href=logout.php>Logout</a>.</p>
          
@@ -62,8 +63,7 @@ if(!empty($_SESSION['LoggedIn']) && !empty($_SESSION['Username']))
 
 	
 <?php
-		echo "<p>Details for Supermarine Spitfire $serial:</p><img src=\"images/$image\" alt=\"image\" style=\"width:600px;height:400px;\">";
-		echo "<p>Search again. <a href=search.php>Search</a>.</p>";
+		echo "<h3>Details for Supermarine Spitfire $serial:</h3><br/><p><a href=search.php>Search again</a>.</p><br/><img src=\"images/$image\" alt=\"image\" style=\"width:600px;height:auto;\">";
 		echo "</h1><table style=\"width:100%\"><tr><th>Serial:</th><th>Number:</th><th>Code:</th><th>First Flight:</th></tr>";
 		echo "<tr><td>$serial</td><td>$number</td><td>$code</td><td>$fflight</td></tr>";		
 		echo "<p><br/></p>";

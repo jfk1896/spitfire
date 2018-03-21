@@ -75,4 +75,10 @@ MU:
 MU date:
 =MID(F2,FIND("MU",F2)+3,8)
 
+Git:
+Ubuntu:
+cp -u /var/www/html/* ~/git/spitfire/html/
+cp -u ~/Desktop/Spitfire/* ~/git/spitfire/Spitfire/
+
+RHEL:
 

@@ -14,8 +14,8 @@ if(!empty($_SESSION['LoggedIn']) && !empty($_SESSION['Username']))
      ?> 
      	<img src="images/supermarine.png" alt="logo" style="width:30%;height:30%;">
     	<h1>Supermarine Spitfire Database</h1><br />
-     	<h1>Member Area</h1>
-	<p>Thanks for logging in! You are <code><?=$_SESSION['Username']?></code> and your email address is <code><?=$_SESSION['EmailAddress']?></code>.</p>
+     	<h2>Member's Area</h2>
+	<p>User <code><?=$_SESSION['Username']?></code> using email address <code><?=$_SESSION['EmailAddress']?></code> logged in.</p><br/>
         <p><a href=search.php>Continue</a> or <a href=logout.php>Logout</a>.</p>
 
 <?php
@@ -37,13 +37,17 @@ elseif(!empty($_POST['username']) && !empty($_POST['password']))
         $_SESSION['EmailAddress'] = $email;
         $_SESSION['LoggedIn'] = session_id();
 
-        echo "<h1>Success</h1>";
+	echo "<img src=\"images/supermarine.png\" alt=\"logo\" style=\"width:30%;height:30%;\">";
+    	echo "<h1>Supermarine Spitfire Database</h1><br />";
+        echo "<h2>Success</h2>";
         echo "<p>We are now redirecting you to the member area.</p>";
         echo "<meta http-equiv='refresh' content='=2;index.php' />";
     }
     else
     {
-        echo "<h1>Error</h1>";
+	echo "<img src=\"images/supermarine.png\" alt=\"logo\" style=\"width:30%;height:30%;\">";
+    	echo "<h1>Supermarine Spitfire Database</h1><br />";
+        echo "<h2>Error</h2>";
         echo "<p>Sorry, your account could not be found. Please <a href=\"index.php\">click here to try again</a>.</p>";
     }
 }
@@ -54,9 +58,9 @@ else
      
 		<img src="images/supermarine.png" alt="logo" style="width:30%;height:30%;">
     		<h1>Supermarine Spitfire Database</h1><br />
-   		<h1>Member Login</h1>
+   		<h2>Member's Login</h2>
 
-   	<p>Thanks for visiting! Please either login below, or <a href="register.php">click here to register</a>.</p>
+   	<p>Please login below or <a href="register.php">click here to register</a>.</p><br/>
 	<form method="post" action="index.php" name="loginform" id="loginform">
 	<fieldset>
         <label for="username">Username:</label><input type="text" name="username" id="username" /><br />

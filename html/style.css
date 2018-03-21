@@ -51,19 +51,21 @@ th, td {
     vertical-align: text-top;
     text-align: left;
 }
-h1, p {
+h1, h2, h3, p {
 	text-align: center;
 }
 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-}#logo {
+    border-style: double;
+}
+#logo {
     background: url(images/supermarine.png) no - repeat center center;
     height: 200px;
     width: 200px;
 }
-form { 
+form, label { 
 	margin: 0 auto; 
 	width:250px;
 	text-align:center;

@@ -1,5 +1,6 @@
 <?php
 session_start();
+session_regenerate_id();
 session_destroy();
 ?>
 <meta http-equiv="refresh" content="0; url=index.php">
