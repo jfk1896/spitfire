@@ -58,7 +58,7 @@ WHERE production.serial = 'N3194';
 
 
 ALTER TABLE production ADD image VARCHAR(20);
-update production set image  = 'Ia.jpg' where serial = 'N3194';
+update production set image  = 'generic/PRIII.jpg' where mark = 'PRIII';
 
 
 Extract values from History:
@@ -67,13 +67,19 @@ FF:
 =MID(F2,FIND("FF",F2)+3,8)
 
 S:
-=MID(F3,FIND("S",F3)-2,2)
+i=1; while read line; do echo -n $i, >> S.csv; echo  "update production set squadron = '$(echo $line | egrep -o '[0-9]+S ' | head -1 | xargs)'" >> S.csv; i=$(($i+1)); done < production_extended.csv
+cat S.csv | while read line; do echo "$(echo $line | cut -d, -f2) where id=$(echo $line | cut -d, -f1);"; done | mysql -u root spitfire;
 
 MU:
-=MID(F2,FIND("MU",F2)-2,2)
+i=1; while read line; do echo -n $i, >> M.csv; echo  "update production set maintenance_unit = '$(echo $line | egrep -o '[0-9]+MU ' | head -1 | xargs)'" >> M.csv; i=$(($i+1)); done < production_extended.csv
+cat M.csv | while read line; do echo "$(echo $line | cut -d, -f2) where id=$(echo $line | cut -d, -f1);"; done | mysql -u root spitfire;
 
 MU date:
 =MID(F2,FIND("MU",F2)+3,8)
+
+Code:
+i=1; while read line; do echo -n $i, >> CD.csv; echo  "update production set code = '$(echo $line | egrep -o '[A-Z]+[A-Z]+-+[A-Z]' | head -1 | xargs)'" >> CD.csv; i=$(($i+1)); done < production_extended.csv
+cat CD.csv | while read line; do echo "$(echo $line | cut -d, -f2) where id=$(echo $line | cut -d, -f1);"; done | mysql -u root spitfire;
 
 Git:
 Ubuntu:

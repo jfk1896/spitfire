@@ -38,7 +38,7 @@ if(!empty($_SESSION['LoggedIn']) && !empty($_SESSION['Username']))
         $checknumber = mysqli_query($link, "SELECT * FROM production WHERE number = '".$search."'");
          
         $header="<h3><br/>Search results for \"$search\":</h3><table style=\"width:100%\">
-                <tr><th>Serial:</th><th>Number:</th><th>Mark:</th><th>Engine:</th><th>Factory:</th><th>Details:</th></tr>";
+                <tr><th>Serial:</th><th>Number:</th><th>Mark:</th><th>Engine:   </th><th>Factory:</th><th>Details:</th></tr>";
  
             if(mysqli_num_rows($checkserial) == 1)
         {
